@@ -1,6 +1,6 @@
 package me.boggy.foliaArenas;
 
-import me.boggy.foliaArenas.command.ArenaResetCommand;
+import me.boggy.foliaArenas.command.ToggleArenaResetCommand;
 import me.boggy.foliaArenas.command.ArenaResetResetCommand;
 import me.boggy.foliaArenas.command.ArenaSaveCommand;
 import me.boggy.foliaArenas.manager.ArenaManager;
@@ -32,9 +32,9 @@ public final class FoliaArenas extends JavaPlugin {
                 }
             }, regenDelay, regenDelay);
         });
-        getCommand("arenareset").setExecutor(new ArenaResetCommand(this));
+        getCommand("arenareset").setExecutor(new ToggleArenaResetCommand(this));
         getCommand("arenasave").setExecutor(new ArenaSaveCommand(this));
-        getCommand("resetarena").setExecutor(new ArenaResetResetCommand(this));
+        getCommand("togglearenareset").setExecutor(new ArenaResetResetCommand(this));
 
     }
 
