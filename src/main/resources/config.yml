@@ -1,0 +1,21 @@
+regen-delay: 600 # in seconds
+delay-between: 4 # in ticks
+regen-blocks: 15000
+
+toggle-permission: "arenareset.toggle"
+save-permission: "arenareset.save"
+reset-permission: "arenareset.reset"
+
+1:
+  pos-1: 150, -64, 45
+  pos-2: 45, 320, -151
+2:
+  pos-1: 45, -64, -151
+  pos-2: -151, 320, -45
+3:
+  pos-1: -151, -64, -45
+  pos-2: -45, 320, 150
+4:
+  pos-1: -45, -64, 150
+  pos-2: 150, 320, 45
+

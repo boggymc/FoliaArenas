@@ -1,0 +1,11 @@
+name: FoliaArenas
+version: '1.0-SNAPSHOT'
+main: me.boggy.foliaArenas.FoliaArenas
+api-version: '1.20'
+folia-supported: true
+load: STARTUP
+
+commands:
+  arenareset:
+  resetarena:
+  arenasave:
